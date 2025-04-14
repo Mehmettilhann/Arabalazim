@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("/Arabalazim/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    position: absolute;
+  top: -34px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters select, .filters input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.car-list {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.car {
+    width: 300px;
+}
+
+.car img {
+    width: auto;
+    height: auto;
+}
+
+.car-image {
+    width: 100%; /* Resmin genişliği, konteynerin genişliğine göre ayarlanır */
+    height: auto; /* Otomatik olarak orantılı bir yükseklik belirlenir */
+}
+
+footer {
+    padding-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

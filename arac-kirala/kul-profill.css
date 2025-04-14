@@ -1,0 +1,244 @@
+*{
+  margin:0px;
+
+}
+
+body{
+background-image: url("/Arabalazim/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250vh;
+}
+header {
+    background-color: #333 !important;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  position: absolute;
+  top: -17px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters select, .filters input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.car-list {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.car {
+    width: 300px;
+}
+
+.car img {
+    width: auto;
+    height: auto;
+}
+
+.car-image {
+    width: 100%; /* Resmin genişliği, konteynerin genişliğine göre ayarlanır */
+    height: auto; /* Otomatik olarak orantılı bir yükseklik belirlenir */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container{
+  width:100%;
+  height:100vh;
+  margin-top: 20px;
+}
+.kullanici-sifre{
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.kullanici{
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.sifre{
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.yorum-arac{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.yorum{
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: #e9e9f1;
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 0 15px 75px;
+  padding-left: 5px;
+}
+.yorum p {
+  width: 300px;
+  border-style: groove;
+  border-radius: 10px;
+}
+.yorum-ic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arac{
+  width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5), 10px -10px 10px 0 rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+    background: #e9e9f1;
+
+}
+.arac p {
+  width: 370px;
+  margin-top: 5px;
+}
+.arac-ic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width:100px;
+    height: 70px;
+}
+
+.demo-form1 {
+    padding: 20px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 26px;
+    box-shadow: 0 6px 25px;
+  }
+  
+  .demo-form1 input::placeholder,
+  .demo-form1 textarea::placeholder,
+  .demo-form1 select::placeholder {
+    opacity: 0.8;
+  }
+  
+  .demo-form1 textarea {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .demo-form1 .input-wrap {
+    padding: 10px 0;
+  }
+  
+  .demo-form1 .input {
+    background-color: #fff;
+    border: 1px solid #bebed6;
+    width: 100%;
+    height: 20px;
+    padding: 10px 15px;
+  }
+  
+  .demo-form1 input:not([type="radio"]) {
+    width: 95%;
+  }
+  
+  .demo-form1 label.f-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .demo-form1 .radio-label {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  .demo-form1 input[type="file"] {
+    padding-left: 0;
+  }
+  
+  .demo-form1 input[type="submit"] {
+    color: #fff;
+    border-color: transparent;
+    background-color: #e21346;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: 0.3s ease all;
+  }
+  
+  .demo-form1 input[type="submit"]:hover {
+    background-color: #c00d3a;
+  }
+                
