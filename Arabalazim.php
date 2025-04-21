@@ -11,7 +11,7 @@ if (!$connection) {
     die("Veritabanı bağlantısı başarısız: " . mysqli_connect_error());
 }
 
-// Anasayfa tablosundan bilgileri çek
+// Anasayfa tablosundan bilgileri çeker
 $query = "SELECT sliderimg1, sliderimg2, sliderimg3, vizyon, misyon, bizeulas FROM anasayfa WHERE aid = 1";
 $result = mysqli_query($connection, $query);
 
@@ -228,7 +228,7 @@ nav ul li a {
             currentSlide++;
             if (currentSlide > slides.length) {currentSlide = 1}    
             slides[currentSlide-1].style.display = "block";  
-            setTimeout(showSlides, 3000); // Change image every 3 seconds
+            setTimeout(showSlides, 3000); // 3 saniye aralıkla anasayfada kapmayalı ürünleri değiştirir
         }
 
         showSlides();
