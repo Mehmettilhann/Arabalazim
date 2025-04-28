@@ -1,4 +1,5 @@
 <?php
+
 // Veritabanı bağlantısı için gerekli bilgiler
 $servername = "localhost"; // Sunucu adı
 $username = "root"; // Kullanıcı adı
@@ -29,4 +30,5 @@ if(isset($_GET['id'])) {
 }
 // Veritabanı bağlantısını kapat
 mysqli_close($connection);
+
 ?>
