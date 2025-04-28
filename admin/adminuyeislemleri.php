@@ -73,6 +73,7 @@ echo "</form>";
 // Veritabanı bağlantısını kapat
 mysqli_close($connection);
 ?>
+
 <!-- Seçili üyenin bilgilerini textboxlara yazdırma işlemi -->
 <script>
     function editMember(id, ad, soyad, email, sifre) {
