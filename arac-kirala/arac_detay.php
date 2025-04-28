@@ -102,9 +102,6 @@
     </script>
 
 
-    
-    
-
     <script>
         function checkLoginAndRedirect() {
             // Oturum açılmış mı kontrol et
