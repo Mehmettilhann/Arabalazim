@@ -50,6 +50,7 @@
             <a href="\Arabalazim\login-register\giris_yap.php">Giriş Yap</a>
             <a href="\Arabalazim\login-register\kayit_ol.php">Kayıt Ol</a>
         </div>
+     
         <?php
         }
         ?>
@@ -57,6 +58,7 @@
 <div class="container">
      <div class="kullanici-sifre">
     <div class="kullanici">
+
 <?php
 $servername = "localhost";
 $username = "root";
@@ -105,6 +107,7 @@ if ($result->num_rows > 0) {
         }
     }
 ?>
+        
   <div class="sifre">
     <form action="" method="post" class="demo-form1">
         <h2>Şifre Güncelle</h2>
@@ -147,6 +150,7 @@ if ($result->num_rows > 0) {
     echo "Yorum bulunamadı.<br>";
 }
 ?>
+
 </div>
 <div class="arac">
     <h1 style="width:500px;text-align:center;">Kiralanan Araçlar</h1>
@@ -164,7 +168,6 @@ if ($result->num_rows > 0) {
     }
 
 
-    
 } else {
     echo "Kiralık araba bulunamadı.<br>";
 }
@@ -175,5 +178,6 @@ if ($result->num_rows > 0) {
 <?php
 $conn->close();
 ?>
+
 </body>
 </html>
