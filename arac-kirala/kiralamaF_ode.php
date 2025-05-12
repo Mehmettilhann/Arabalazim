@@ -1,6 +1,5 @@
 <?php
 
-
 session_start();  // Session başlatılıyor
 
 // Kullanıcı kimliğini cookie'den çekme
